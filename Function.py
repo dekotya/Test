@@ -1,14 +1,14 @@
-def maximum(A):
-    max = A[0]
+def minimum(A):
+    min = A[0]
     for a in A:
-        if a > max:
-            max = a
-    return max
+        if a < min:
+            min = a
+    return min
 
 n = int(input())
 A = []
 for i in range(n):
     A.append(int(input()))
-max = maximum(A)
-max
+min = minimum(A)
+min
 
