@@ -5,7 +5,10 @@ def maximum(A):
             max = a
     return max
 
-A = [2, 4, 6, 4, 8, 9, 5]
+n = int(input())
+A = []
+for i in range(n):
+    A.append(int(input()))
 max = maximum(A)
 max
 
